@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使能"
+        android:layout_gravity="center"
+        android:textSize="@dimen/sp_11"
+        />
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPIO0"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dp_5"
+        android:textSize="@dimen/sp_11"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbIn"
+            android:text="IN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+
+            android:checked="false"
+            android:textSize="@dimen/sp_11"
+
+            />
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbOut"
+            android:text="OUT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+
+            android:checked="false"
+            android:textSize="@dimen/sp_11"
+            />
+    </RadioGroup>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电平"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dp_5"
+        android:textSize="@dimen/sp_11"
+        />
+</LinearLayout>

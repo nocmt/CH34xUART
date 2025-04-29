@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- 主题不能继承Dark Theme和DayNight主题,否则设置forceDarkAllowed 不生效-->
+    <style name="Theme.WCHUARTDemo" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.WCHUARTDemo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WCHUARTDemo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WCHUARTDemo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ontextoff" parent="@style/TextAppearance.AppCompat.Widget.Switch">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+</resources>

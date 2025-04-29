@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<dimen name="fab_margin">36.4444dp</dimen>
+	<dimen name="dp_5">11.3889dp</dimen>
+	<dimen name="dp_10">22.7778dp</dimen>
+	<dimen name="dp_15">34.1667dp</dimen>
+	<dimen name="sp_16">36.4444sp</dimen>
+	<dimen name="dp_100">227.7778dp</dimen>
+	<dimen name="sp_17">38.7222sp</dimen>
+	<dimen name="dp_70">159.4444dp</dimen>
+	<dimen name="sp_14">31.8889sp</dimen>
+	<dimen name="dp_250">569.4444dp</dimen>
+	<dimen name="sp_15">34.1667sp</dimen>
+	<dimen name="dp_30">68.3333dp</dimen>
+	<dimen name="sp_13">29.6111sp</dimen>
+	<dimen name="dp_40">91.1111dp</dimen>
+	<dimen name="dp_35">79.7222dp</dimen>
+	<dimen name="dp_50">113.8889dp</dimen>
+	<dimen name="dp_90">205.0000dp</dimen>
+	<dimen name="dp_300">683.3333dp</dimen>
+	<dimen name="dp_350">797.2222dp</dimen>
+	<dimen name="dp_20">45.5556dp</dimen>
+	<dimen name="dp_120">273.3333dp</dimen>
+</resources>
